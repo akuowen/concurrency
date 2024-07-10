@@ -10,6 +10,10 @@ anyhow = "1.0.82"
 dashmap = "5.5.3"
 oneshot = "0.1.6"
 rand = "0.8.5"
-tokio = { version = "1.37.0", features = ["rt", "rt-multi-thread", "macros", "net", "io-util"] }
+tokio = { version = "1.37.0", features = ["full"] }
+tokio-util = { version = "0.7.11", features = ["full"] }
 tracing = "0.1.40"
+futures = "0.3.30"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+serde = { version = "1.0.203", features = ["derive"] }
+serde_yaml = "0.9.34"
